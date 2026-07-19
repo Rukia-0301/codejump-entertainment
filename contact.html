@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WED - Contact</title>
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <h1><a href="index.html"><img src="img/logo.svg" alt="logo" class="logo"></a></h1>
+      <nav>
+        <ul>
+          <li><a href="index.html#news">NEWS</a></li>
+          <li><a href="index.html#about">ABOUT</a></li>
+          <li><a href="index.html#business">BUSINESS</a></li>
+          <li><a href="index.html#company">COMPANY</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="contact-btn">
+      <a href="contact.html" target="_blank">お問い合わせ</a>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="sub-text">お仕事のご依頼やご相談は下記のフォームからお問い合わせください。</p>
+      <form>
+        <label>
+          Name<span class="requied">*必須</span>
+          <input type="text" name="name" required>
+        </label>
+        <label>
+          E-mail<span class="requied">*必須</span>
+          <input type="email" name="email" required>
+        </label>
+        <label>
+          Message<span class="requied">*必須</span>
+          <textarea name="message" required></textarea>
+        </label>
+        <div class="submit">
+          <button type="submit" id="contact-btn">送信</button>
+        </div>
+      </form>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-flex">
+        <div class="footer-logo">
+          <img src="img/logo.svg" alt="logo" class="logo">
+        </div>
+        <div class="footer-address">
+          <address>
+            Web Entertainment Design Inc.<br>
+            West Building 3F<br>
+            9-99 Sakuragaokacho Shibuya-ku<br>
+            Tokyo, Japan 150-0031<br>
+            T/99-9999-9999
+          </address>
+        </div>
+      </div>
+      <small>&copy; Web Entertainment Design Inc.</small>
+    </div>
+  </footer>
+</body>
+
+</html>
